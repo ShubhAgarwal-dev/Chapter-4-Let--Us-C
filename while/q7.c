@@ -19,7 +19,7 @@ int main(){
 		printf("Do you want to enter any other number\ny/n:");
 		scanf("%s",&c);
 	}
-	printf("Total number of numbers entered are %d",p+z+n);
+	printf("Total number of numbers entered are %d\n",p+z+n);
 	printf("Count of positive numbers entered is/are %d\n",p);
 	printf("Count of negatine numbers entered is/are %d\n",n);
 	printf("Count of zeros entered is/are %d\n",z);
