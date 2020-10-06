@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main(){
-    int a,b=1,i,s=0;
+    int a;
+    float i,b=1,s=0;
     //to find sum of given series
     for(a=1;a<=7;a++){
-        for (i=1;i<=a;i++){
+        for (i=1.0;i<=a;i++){
             b*=i;
-            s+=b/a;
         }
+        s+=a/b;
     }
-    printf("Sum of series is %d\n",s);
+    printf("Sum of series is %f\n",s);
     return 0;
 }
